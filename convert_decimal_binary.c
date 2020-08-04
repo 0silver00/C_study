@@ -8,7 +8,7 @@ int main(){
 	while(1){
 		binary[position] = decimal % 2;
 
-		decimal = decimal / 2;
+		decimal /= 2;
 		
 		position++;
 
