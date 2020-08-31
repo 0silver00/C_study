@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdarg.h>    // va_list, va_start, va_arg, va_end가 정의된 헤더 파일
+#include <stdarg.h>    // va_list, va_start, va_arg, va_end가 정의된 헤더 파일(가변인자 사용시 필수)
 
 void printNumbers(int args, ...)    // 가변 인자의 개수를 받음, ...로 가변 인자 설정
 {
