@@ -17,7 +17,7 @@ int main()
     // 요소 개수가 5개이므로 OK
     printArray(numArr1, sizeof(numArr1) / sizeof(int));
 
-    int numArr2[1] = { 1 };
+    int numArr2[3] = { 1, 2, 3 };
 
     // 요소 개수가 3개이므로 경고
     printArray(numArr2, sizeof(numArr2) / sizeof(int));
